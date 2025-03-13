@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mehhovcki tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar">
+        <a href="/" class="logo">
+          <i class="fas fa-chart-line"></i>
+          mehhovcki tracker
+        </a>
+      </nav>
+    
+      <div class="content">
+        <section class="hero">
+          <h1>your #1 papers pls stats tracker</h1>
+          <p>get all the stats you need about the game in one place</p>
+        </section>
+    
+        <div class="stats-container">
+          <div class="stats-wrapper">
+            <div class="stats-section">
+              <div class="stat-box">
+                <div class="stat-label">players online</div>
+                <div class="stat-value">---</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-label">like ratio</div>
+                <div class="stat-value">---</div>
+              </div>
+            </div>
+            
+            <div class="cta-section">
+              <p class="cta-text">wanna see more cool stats?</p>
+              <div class="button-grid">
+                <a href="#" class="button primary" id="login">log in</a>
+                <a href="#" class="button" id="docs">check docs</a>
+              </div>
+              <br>
+              <i style="font-size: 0.8rem; color: #888">both log in and check documentation buttons are currently disabled.</i>
+            </div>
+          </div>
+        </div>
+    
+        <div class="features-grid">
+          <div class="feature-box" data-tooltip="providing concurrent players of papers pls in easy to use and understand chart">
+            <i class="fas fa-users"></i>
+            <div class="feature-text">real-time player count tracking</div>
+          </div>
+          <div class="feature-box" data-tooltip="providing you all active servers of papers pls, also poiniting out, if there is an in-game inspector, or not">
+            <i class="fas fa-server"></i>
+            <div class="feature-text">server status monitoring</div>
+          </div>
+          <div class="feature-box" data-tooltip="providing statistics of up-to-dislike ratio AND favorite tracker, with logs of votes/favorites being added, or removed, and amount that was either added, or removed">
+            <i class="fas fa-chart-bar"></i>
+            <div class="feature-text">detailed game statistics</div>
+          </div>
+          <div class="feature-box" data-tooltip="providing easy to use platform to display all statistics you will need for this game for free">
+            <i class="fas fa-comments"></i>
+            <div class="feature-text">community insights</div>
+          </div>
+        </div>
+        <p class="coming-soon"><b>and more amazing features coming soon! <i class="fa-regular fa-face-laugh-wink"></i></b></p>
+      </div>
+    
+      <footer class="footer">
+        created by mehhovcki with <span class="heart">💘</span>, from players to players
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
